@@ -1,0 +1,91 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #00f;
+}
+
+.container {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00f;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #00f;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00f;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0000cc;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    height: auto;
+    animation: scaleUp 2s ease-in-out;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+}
+
+textarea {
+    height: 200px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
